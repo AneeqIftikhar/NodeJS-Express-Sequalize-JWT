@@ -8,8 +8,8 @@ const tokenExpireInSeconds = config.get('jwt.expiry')
 // Create and Save a new Tutorial
 exports.create = (req, res) => {
     const user = {
-        email: 'kh.aneeq@gmail.com',
-        password: '12345678',
+        email: 'example@gmail.com',
+        password: 'verystrongpassword',
         role: 'user'
       };
       // Save User in the database
