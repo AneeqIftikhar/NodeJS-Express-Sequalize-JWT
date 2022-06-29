@@ -2,6 +2,6 @@
     "name": "Node Express Sequalize JWT",
     "jwt":
     {
-        "expiry": 600
+        "expiry": 86400
     }
 }
