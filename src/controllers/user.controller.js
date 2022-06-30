@@ -39,7 +39,7 @@ exports.findAll = (req, res) => {
       });
     });
 };
-
+// Login Functionality
 exports.login = async (req,res) => {
   try {
     const user = await User.findOne({where: {email: req.body.email} });
